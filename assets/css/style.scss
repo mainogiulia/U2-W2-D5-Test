@@ -84,9 +84,8 @@ main {
   }
 }
 
-.row div img {
-  width: 350px;
-  gap: 3px;
+.row > div > img {
+  width: 100%;
 }
 
 // FOOTER
@@ -97,11 +96,6 @@ footer {
   p,
   .row p {
     color: grey;
-  }
-
-  socials,
-  button,
-  p {
   }
 
   button {

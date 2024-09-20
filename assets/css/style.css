@@ -77,9 +77,8 @@ main h2 {
   font-size: 23px;
 }
 
-.row div img {
-  width: 350px;
-  gap: 3px;
+.row > div > img {
+  width: 100%;
 }
 
 footer {
