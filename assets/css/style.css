@@ -1,0 +1,118 @@
+.logo {
+  width: 90px;
+}
+
+.avatar {
+  width: 40px;
+}
+
+i {
+  color: white;
+}
+
+.right_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_section > * {
+  padding-inline: 8px;
+}
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.692);
+}
+
+.dropdown-content a,
+.dropdown-content p {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover,
+.dropdown-content p:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.dropdown-content a:hover i,
+.dropdown-content p:hover i {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.title {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.title h1 {
+  padding-top: 10px;
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+main {
+  padding-left: 12px;
+}
+main h2 {
+  padding-top: 20px;
+  font-size: 23px;
+}
+
+.row div img {
+  width: 350px;
+  gap: 3px;
+}
+
+footer {
+  padding-top: 90px;
+}
+footer i,
+footer button,
+footer p,
+footer .row p {
+  color: grey;
+}
+footer button {
+  border: 1px solid;
+  background-color: #212529;
+}
+footer button:hover {
+  background-color: grey;
+  color: #212529;
+}
+footer i {
+  font-size: 23px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+footer .row {
+  padding-bottom: 8px;
+}
+
+.footer-content {
+  width: 60%;
+  margin: auto;
+}
+.footer-content > p {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}/*# sourceMappingURL=style.css.map */
