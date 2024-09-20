@@ -11,22 +11,74 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="bg-dark">
     <header>
-      <img src="./assets/netflix_logo.png" alt="nefflix netflix_logo" />
+      <img src="./assets/netflix_logo.png" alt="neflix logo" />
     </header>
     <main>
       <h1>Edit Profile</h1>
-      <div class="main_part">
-        <div>
-          <img src="./assets/avatar.png" alt="avatar" />
-        </div>
-        <div>
-          <div>
-            <p class="profile_name">Strive Student</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="img_container col-12 col-md-3 p-0">
+            <div class="position-relative">
+              <img src="./assets/avatar.png" alt="avatar" />
+              <i class="fas fa-pen position-absolute"></i>
+            </div>
+          </div>
+          <div class="col-12 col-md-8 p-0">
+            <div class="main_part">
+              <div class="first_part">
+                <p class="profile_name">Strive Student</p>
+                <div class="lang_container">
+                  <p>Language:</p>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>English</option>
+                    <option value="1">Italian</option>
+                    <option value="2">French</option>
+                    <option value="3">German</option>
+                    <option value="4">Spanish</option>
+                    <option value="5">Japanese</option>
+                    <option value="6">Korean</option>
+                  </select>
+                </div>
+              </div>
+              <div class="second_part">
+                <p>Maturity Settings:</p>
+                <p>ALL MATURITY RATINGS</p>
+                <p>Show titles of all maturity ratings for this profile.</p>
+                <button class="bg-dark">EDIT</button>
+              </div>
+              <div class="third_part">
+                <p>Autoplay controls</p>
+                <div class="container-flex">
+                  <div class="row">
+                    <div class="col-1">
+                      <input type="checkbox" checked />
+                      <input type="checkbox" />
+                    </div>
+                    <div class="col-11 pe-0 ps-4">
+                      <label> Autoplay next episode in a series on all devices. </label>
+                      <label> Autoplay previews while browsing on all devices. </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="buttons">
+        <button class="bg-light">SAVE</button>
+        <button class="bg-dark">CANCEL</button>
+        <button class="bg-dark">DELETE PROFILE</button>
       </div>
     </main>
     <script
